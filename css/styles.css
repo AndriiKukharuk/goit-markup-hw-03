@@ -21,6 +21,7 @@ ul {
   --color-third: #2196f3;
   --color-link: #757575;
   --color-section: #2f303a;
+  --color-bottom:#F5F4FA;
 }
 
 .logo {
@@ -115,6 +116,20 @@ button:focus {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+
+}
+.work-team{
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 188px;
+}
+h2{
+  margin: 0px;
+
 }
 .name-work {
   font-weight: 500;
@@ -195,7 +210,7 @@ a {
   width: 1600px;
   height: 80px;
 }
-h1 {
+h1{
   margin-top: 0px;
 }
 .section {
@@ -218,20 +233,76 @@ h1 {
 .auth-nav {
   display: flex;
   align-items: center;
-  padding-right: 215px;
+  padding-right: 0px;
   padding-top: 32px;
   padding-bottom: 32px;
   gap: 40px;
 }
-.hero-conteiner {
-  display: flex;
-  align-items: center;
-}
+
 .logo-portfolio {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 33%;
 }
 .logo {
-  padding: 24px 93px 25px 215px;
+  padding: 24px 93px 25px 0px;
+}
+/* ГЕрой */
+.hero{
+  padding: 200px 452px 0px 452px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+.button{
+  width: 200px;
+  height: 50px;
+  border-color: var(--color-third);
+  border-radius: 5px;
+  justify-content: center;
+  margin: 30px 700px 200px 700px;
+}
+.conteiner{
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.feature-list{
+  
+  margin-top: 94px;
+
+}
+.title-flex{
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  gap: 30px;
+  justify-content: space-between;
+
+  
+}
+.work-flex{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  gap: 30px;
+}
+.team-flex{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 0px;
+}
+.team{
+  background-color: var(--color-bottom);
+}
+
+.logo-bottom{
+  color: var(--color-third);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    padding-top: 0px;
 }
