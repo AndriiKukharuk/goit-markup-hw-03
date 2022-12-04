@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header border">
       <div class="conteiner">
         <div class="header-container">
           <nav class="header-nav">
@@ -49,8 +49,8 @@
       </div>
     </header>
     <main>
-      <div class="conteiner">
-        <section class="main-portfolio">
+      <section class="main-portfolio">
+        <div class="conteiner">
           <ul class="filtr">
             <li><button class="button-portfolio" type="button">Усі</button></li>
             <li>
@@ -71,25 +71,30 @@
             <li class="logo-portfolio-item">
               <a href="">
                 <img src="./images/portfolio1.jpg" alt="комп" width="370" />
-
-                <h3 class="name-portfolio">Технокряк</h3>
-                <p class="filtr-name">Веб-сайт</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">Технокряк</h3>
+                  <p class="filtr-name">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="logo-portfolio-item">
               <a href="">
                 <img src="./images/portfolio2.jpg" alt="ПОСТЕР" width="370" />
-
-                <h3 class="name-portfolio">Постер New Orlean vs Golden Star</h3>
-                <p class="filtr-name">Дизайн</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">
+                    Постер New Orlean vs Golden Star
+                  </h3>
+                  <p class="filtr-name">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="logo-portfolio-item">
               <a href="">
                 <img src="./images/portfolio3.jpg" alt="ресторан" width="370" />
-
-                <h3 class="name-portfolio">Ресторан Seafood</h3>
-                <p class="filtr-name">Додаток</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">Ресторан Seafood</h3>
+                  <p class="filtr-name">Додаток</p>
+                </div>
               </a>
             </li>
             <li>
@@ -99,9 +104,10 @@
                   alt="Проєкт Prime"
                   width="370"
                 />
-
-                <h3 class="name-portfolio">Проєкт Prime</h3>
-                <p class="filtr-name">Маркетинг</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">Проєкт Prime</h3>
+                  <p class="filtr-name">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li>
@@ -111,9 +117,10 @@
                   alt="Проєкт Boxes"
                   width="370"
                 />
-
-                <h3 class="name-portfolio">Проєкт Boxes</h3>
-                <p class="filtr-name">Додаток</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">Проєкт Boxes</h3>
+                  <p class="filtr-name">Додаток</p>
+                </div>
               </a>
             </li>
             <li>
@@ -123,9 +130,10 @@
                   alt="Inspiration has no Borders"
                   width="370"
                 />
-
-                <h3 class="name-portfolio">Inspiration has no Borders</h3>
-                <p class="filtr-name">Веб-сайт</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">Inspiration has no Borders</h3>
+                  <p class="filtr-name">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li>
@@ -135,9 +143,10 @@
                   alt="Видання Limited Edition"
                   width="370"
                 />
-
-                <h3 class="name-portfolio">Видання Limited Edition</h3>
-                <p class="filtr-name">Дизайн</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">Видання Limited Edition</h3>
+                  <p class="filtr-name">Дизайн</p>
+                </div>
               </a>
             </li>
             <li>
@@ -147,9 +156,10 @@
                   alt="Проєкт LAB"
                   width="370"
                 />
-
-                <h3 class="name-portfolio">Проєкт LAB</h3>
-                <p class="filtr-name">Маркетинг</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">Проєкт LAB</h3>
+                  <p class="filtr-name">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li>
@@ -159,17 +169,18 @@
                   alt="Growing Business"
                   width="370"
                 />
-
-                <h3 class="name-portfolio">Growing Business</h3>
-                <p class="filtr-name">Додаток</p>
+                <div class="box-portfolio">
+                  <h3 class="name-portfolio">Growing Business</h3>
+                  <p class="filtr-name">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <div class="footer-logo">
+      <div class="conteiner">
         <a href="./index.html" class="logo-bottom"
           >Web<span class="studio-footer">Studio</span></a
         >
@@ -177,11 +188,9 @@
           <p class="footer-adress">м. Київ, пр-т Лесі Українки, 26</p>
           <ul class="auth-nav-bottom">
             <li>
-              <div class="link-bottom">
-                <a href="mailto:info@devstudio.com" class="link-nav"
-                  >info@devstudio.com</a
-                >
-              </div>
+              <a href="mailto:info@devstudio.com" class="link-nav"
+                >info@devstudio.com</a
+              >
             </li>
             <li>
               <a href="tel:+380961111111" class="link-nav">+380961111111</a>
